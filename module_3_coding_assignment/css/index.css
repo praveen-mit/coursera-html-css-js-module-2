@@ -1,1 +1,44 @@
-
+body {
+  background-color: #eeeeee;
+  font-family: 'Raleway', sans-serif;
+}
+.navbar, .navbar * {
+  background-color: #222222;
+}
+#foodnav {
+  margin-bottom: 0;
+}
+#foodnav .navbar-brand, #foodnav .navbar-nav>li>a {
+  color: white;
+}
+#foodnav .navbar-brand:hover, #foodnav .navbar-nav>li>a:hover,
+#foodnav .navbar-brand:active, #foodnav .navbar-nav>li>a:active,
+#foodnav .navbar-brand:focus, #foodnav .navbar-nav>li>a:focus {
+  color: #ffaaaa;
+}
+#foodnav .navbar-header button:hover {
+  background-color: #ffaaaa;
+}
+#foodnav #foodllc-navbar-collapse {
+  padding: 0;
+}
+#foodnav #foodllc-navbar-collapse .navbar-nav {
+  margin: 0;
+}
+#foodnav #foodllc-navbar-collapse .navbar-nav li:nth-child(1) {
+  border-top: 2px solid #222222;
+}
+#foodnav #foodllc-navbar-collapse .navbar-nav li {
+  border-bottom: 2px solid #222222;
+}
+#foodnav #foodllc-navbar-collapse * {
+  background-color: #dd2222;
+}
+#food-content .row div {
+  background-color: lightblue;
+}
+@media (max-width: 767px) {
+  #food-content .row {
+    margin: 0;
+  }
+}
