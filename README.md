@@ -1,2 +1,2 @@
-# coursera-html-css-js-module-2
-Module 2 Coding Assignment for 'HTML-CSS-Javascript for web developers' Coursera course
+# coursera-html-css-js
+Coding Assignments for 'HTML-CSS-Javascript for web developers' Coursera course
